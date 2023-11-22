@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Four card feature section</title>
+
+  <link rel="stylesheet" href="output.css">
+
+  <!-- font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> 
+</head>
+<body class="relative grid place-items-center min-h-screen text-sm font-Poppins bg-Very_Light_Gray ">
+  <main class="p-6 transition-all duration-75 ease-linear">
+    <header class="text-center max-w-[34rem] lg:mx-auto lg:text-lg lg:text-large lg:pt-20">  
+        <h1 class="text-2xl font-extralight text-Grayish_Blue ">Reliable, efficient delivery</h1>
+        <h2 class="text-2xl mb-2 text-Very_Dark_Blue">Powered by Technology</h2>
+        <p class="text-[16px] mb-10 text-Grayish_Blue">Our Artificial Intelligence powered tools use millions of project data points 
+          to ensure that your project is successful</p>
+    </header>           
+      <section class="transition-all duration-75 ease-linear md:grid md:grid-cols-2 md:grid-rows-2 lg:grid lg:grid-cols-6 lg:grid-rows-4 lg:pl-28 lg:-mt-20"> 
+          <article class="w-80 h-52 p-8 border-t-2 border-Cyan shadow-2xl relative rounded   lg:row-start-2 lg:ml-20">
+            <h3 class="text-xl text-Very_Dark_Blue">Supervisor</h3>
+            <p class="text-xm  items-center  mt-2 text-Grayish_Blue">Monitors activity to identify project roadblocks</p>
+            <img src="/images/icon-supervisor.svg" alt="icon-supervisor" class="  absolute p-4 right-0 bottom-0">
+          </article>
+
+          <article class=" mt-5 bg-gray-50 w-80 h-52 p-8 border-t-2 border-Red shadow-2xl relative rounded lg:col-start-3 lg:-bottom-20">
+            <h3 class="text-xl text-Very_Dark_Blue">Team Builder</h3>
+            <p class="text-[13px]  items-center mt-2 text-Grayish_Blue">Scans our talent network to create the optimal team for your project</p>
+            <img src="/images/icon-team-builder.svg" alt="icon-team-builder "class="  absolute p-4 right-0 bottom-0">
+          </article>
+
+          <article class="mt-5 bg-gray-50 w-80 h-52 p-8 border-t-2 border-Orange shadow-2xl relative rounded lg:row-start-3 lg:col-start-3 lg:-mt-32">
+            <h3 class="text-xl text-Very_Dark_Blue">Karma</h3>
+            <p class="text-xm  items-center mt-2 text-Grayish_Blue">Regularly evaluates our talent to ensure quality</p>
+            <img src="/images/icon-karma.svg" alt="Karma" class="absolute p-4 right-0 bottom-0">
+          </article>
+
+          <article class="mt-5 bg-gray-50 w-80 h-52 p-8 border-t-2 border-Blue shadow-2xl relative rounded lg:col-start-5 lg:row-start-2 lg:mt-0 lg:-ml-20">
+            <h3 class="text-xl text-Very_Dark_Blue">Calculator</h3>
+            <p class="text-xm  items-center mt-2 text-Grayish_Blue">Uses data from past projects to provide better delivery estimates</p>
+            <img src="/images/icon-calculator.svg" alt="Calculator" class=" absolute p-4 right-0 bottom-0">
+          </article>
+      </section>
+
+  </main>
+  <footer class="absolute bottom-0">
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">ShivkumarChougala</a>.
+    </p>
+  </footer>
+</body>
+</html>
